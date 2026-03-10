@@ -27,7 +27,7 @@ some screen shuts
 
 ## add person screen 
 
-![Dashboard](pic/addpersonscreen.png)
+![Dashboard](pic/add person screen.png)
 
 ## settings screen
 
