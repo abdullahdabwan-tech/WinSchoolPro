@@ -5,9 +5,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/abdullahdabwan-tech/SchoolProject)
 ![GitHub license](https://img.shields.io/github/license/abdullahdabwan-tech/SchoolProject)
 
-A complete **School Management System** designed to manage all school departments including students, teachers, administration, finances, and academic results.
-
-This system helps schools automate administrative tasks and organize data efficiently.
+A complete **School Management System** to manage students, teachers, administration, finances, and academic results.
 
 ---
 
@@ -23,38 +21,55 @@ This system helps schools automate administrative tasks and organize data effici
 ✔ Reports & Statistics
 
 ---
-some screen shuts
 
-## add person screen 
+# 🖼 Screenshots
 
-![Dashboard](pic/add person screen.png)
+### Main Screen
 
-## settings screen
+![Main Screen](pic/mainscreen.png)
 
-![settings](pic/appsettings.png)
+### Login Screen
 
+![Main Log](pic/mainlog.png)
 
+### Add Person / Student
 
-## Black Theme
+![Add Person](pic/add person screen.png)
 
-![settings](pic/blacktheme.png)
+### Person Details
 
+![Person Screen](pic/personscrenn.png)
 
+### Show List
 
-All images are located inside:
+![Show List Screen](pic/show list screen.png)
 
-pic/
+### Application Settings
 
----
+![App Settings](pic/appsettings.png)
 
-# 📂 Project Structure
+### Themes
 
-SchoolProject
-│
-├── Database → SQL Server Database backup
-├── pic → Project screenshots
-├── SchoolProject → Main source code
-└── README.md
+![Blue Theme](pic/blue theme.png)
+![Black Theme](pic/balck theme.png)
+
+### Code Structure / Pattern
+
+![Code Pattern](pic/code pattern.png)
+
+### Architecture Diagram
+
+![Diagram](pic/digram.png)
+
+### Procedures / Workflows
+
+![Procedure](pic/procedure.png)
+
+### Type Architecture
+
+![Type Architecture](pic/tyer arch.png)
+
+> All screenshots are located in the **pic/** folder.
 
 ---
 
@@ -64,37 +79,35 @@ Follow these steps to run the system locally.
 
 ## 1️⃣ Restore the Database
 
-Open **SQL Server Management Studio**
+Open **SQL Server Management Studio** and restore the database located in:
 
-Restore the database located in:
-
+```
 Database/
+```
 
-After restoring, make sure the database name is:
+Make sure the database name is:
 
+```
 SchoolDB
+```
 
 ---
 
 ## 2️⃣ Change Database Owner
 
-Run the following SQL command:
+Run:
 
 ```sql
 ALTER AUTHORIZATION ON DATABASE::SchoolDB TO sa;
 ```
 
-Or change the owner manually from database properties.
-
 ---
 
 ## 3️⃣ Configure Connection String
 
-Open the project and update the connection string if necessary.
+Open the project in Visual Studio and update connection string if necessary:
 
-Example:
-
-```
+```text
 Server=.;Database=SchoolDB;Trusted_Connection=True;
 ```
 
@@ -102,9 +115,9 @@ Server=.;Database=SchoolDB;Trusted_Connection=True;
 
 ## 4️⃣ Run the Project
 
-1. Open the solution using **Visual Studio**
-2. Build the project
-3. Run the application
+1. Build the solution in Visual Studio
+2. Run the application
+3. You should see the system running with the main screen
 
 ---
 
@@ -113,32 +126,17 @@ Server=.;Database=SchoolDB;Trusted_Connection=True;
 * C#
 * .NET
 * SQL Server
-* HTML
-* CSS
+* HTML / CSS
 * JavaScript
-
----
-
-# 🎥 Demo GIF
-
-You can add a demo GIF here later to show how the system works.
-
-Example:
-
-![Demo](pic/demo.gif)
 
 ---
 
 # 👨‍💻 Author
 
-Abdullah Dabwan
-
-GitHub
-https://github.com/abdullahdabwan-tech
-
-Telegram
-@Abdullah_Soft_Dev
+**Abdullah Dabwan**
+GitHub: [abdullahdabwan-tech](https://github.com/abdullahdabwan-tech)
+Telegram: @Abdullah_Soft_Dev
 
 ---
 
-⭐ If you like this project, give it a star on GitHub.
+⭐ Give a star on GitHub if you like the project!
