@@ -23,28 +23,23 @@ This system helps schools automate administrative tasks and organize data effici
 ✔ Reports & Statistics
 
 ---
+some screen shuts
 
-# 🖼 System Screenshots
+## add person screen 
 
-## Dashboard
+![Dashboard](pic/addpersonscreen.png)
 
-![Dashboard](pic/dashboard.png)
+## settings screen
 
-## Students Management
+![settings](pic/appsettings.png)
 
-![Students](pic/students.png)
 
-## Teachers Management
 
-![Teachers](pic/teachers.png)
+## Black Theme
 
-## Financial System
+![settings](pic/blacktheme.png)
 
-![Finance](pic/finance.png)
 
-## Results System
-
-![Results](pic/results.png)
 
 All images are located inside:
 
